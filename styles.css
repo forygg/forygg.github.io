@@ -30,15 +30,15 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul li a {
   color: #fce63e;
   text-decoration: none;
   font-family: 'myfont';
-  font-size: larger;
+  font-size: x-large;
 }
 
 nav h1 {
@@ -118,7 +118,7 @@ form button {
 
 #comic-generation input[type="email"] {
   flex: 1; /* Expand input to fill available space */
-  margin-right: 10px;
+  margin-right: auto;
 }
 
 #comic-section .comic-container {
