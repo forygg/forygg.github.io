@@ -207,7 +207,7 @@ section {
 h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  font-family: 'Orbitron', sans-serif; /* Set the font to 'Orbitron' */
+  font-family: 'Orbitron', sans-serif;
 }
 
 p {
@@ -257,18 +257,18 @@ form button {
 }
 
 #comic-generation form {
-  display: flex; /* Flexbox */
+  display: flex;
 }
 
 #comic-generation input[type="email"] {
-  flex: 1; /* Expand input to fill available space */
+  flex: 1;
   margin-right: auto;
 }
 
 #comic-section .comic-container {
-  display: flex; /* Flexbox */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center-align elements horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
