@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [sveltekit()],
   root: 'src',
 	build: {
-		outDir: '.svelte-kit/cloudflare'
+		outDir: '.svelte-kit/output'
 	}
 });
