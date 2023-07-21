@@ -3,4 +3,8 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [sveltekit()],
+  root: 'src',
+	build: {
+		outDir: '.svelte-kit/cloudflare'
+	}
 });
